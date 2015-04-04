@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="performance_names">
+        <item>@string/pref_list_perf_very_high</item>
+        <item>@string/pref_list_perf_high</item>
+        <item>@string/pref_list_perf_normal</item>
+        <item>@string/pref_list_perf_low</item>
+        <item>@string/pref_list_perf_very_low</item>
+    </string-array>
+    <string-array name="performance_values">
+        <item>@string/pref_val_perf_very_high</item>
+        <item>@string/pref_val_perf_high</item>
+        <item>@string/pref_val_perf_normal</item>
+        <item>@string/pref_val_perf_low</item>
+        <item>@string/pref_val_perf_very_low</item>
+    </string-array>
+    <!--  -->
+    <string-array name="lock_type_names">
+        <item>@string/pref_list_lock_type_password</item>
+        <item>@string/pref_list_lock_type_pattern</item>
+    </string-array>
+    <string-array name="lock_type_values">
+        <item>@string/pref_val_lock_type_password</item>
+        <item>@string/pref_val_lock_type_pattern</item>
+    </string-array>
+    <!--  -->
+    <string-array name="orientation_names">
+        <item>@string/pref_list_orientation_system</item>
+        <item>@string/pref_list_orientation_auto_rotate</item>
+        <item>@string/pref_list_orientation_portrait</item>
+        <item>@string/pref_list_orientation_landscape</item>
+    </string-array>
+    <string-array name="orientation_values">
+        <item>@string/pref_val_orientation_system</item>
+        <item>@string/pref_val_orientation_auto_rotate</item>
+        <item>@string/pref_val_orientation_portrait</item>
+        <item>@string/pref_val_orientation_landscape</item>
+    </string-array>
+    <string-array name="pref_names_pattern_colors">
+        <item>@string/pref_list_pattern_color_white</item>
+        <item>@string/pref_list_pattern_color_green</item>
+        <item>@string/pref_list_pattern_color_blue</item>
+    </string-array>
+    <string-array name="pref_values_pattern_colors">
+        <item>@string/pref_val_pattern_color_white</item>
+        <item>@string/pref_val_pattern_color_green</item>
+        <item>@string/pref_val_pattern_color_blue</item>
+    </string-array>
+    <string-array name="pref_names_background">
+        <item>@string/background_default</item>
+        <item>@string/background_from_gallery</item>
+        <item>@string/background_locker_blue</item>
+        <item>@string/background_locker_dark_blue</item>
+        <item>@string/background_locker_green</item>
+        <item>@string/background_locker_purple</item>
+        <item>@string/background_locker_red</item>
+        <item>@string/background_locker_turquoise</item>
+        <item>@string/background_locker_orange</item>
+    </string-array>
+    <string-array name="pref_values_background">
+        <item>@string/pref_val_bg_default</item>
+        <item>@string/pref_val_bg_gallery</item>
+        <item>@string/pref_val_bg_blue</item>
+        <item>@string/pref_val_bg_dark_blue</item>
+        <item>@string/pref_val_bg_green</item>
+        <item>@string/pref_val_bg_purple</item>
+        <item>@string/pref_val_bg_red</item>
+        <item>@string/pref_val_bg_turquoise</item>
+        <item>@string/pref_val_bg_orange</item>
+    </string-array>
+    <string-array name="pref_names_anim">
+        <item>@string/pref_list_anim_fade</item>
+        <item>@string/pref_list_anim_slide_left</item>
+        <item>@string/pref_list_anim_slide_right</item>
+        <item>@string/pref_list_anim_none</item>
+    </string-array>
+    <string-array name="pref_values_anim">
+        <item>@string/pref_val_anim_fade</item>
+        <item>@string/pref_val_anim_slide_left</item>
+        <item>@string/pref_val_anim_slide_right</item>
+        <item>@string/pref_val_anim_none</item>
+    </string-array>
+    <!--  -->
+    <string-array name="pro_features_array">
+        <item>@string/pro_ft_bg</item>
+        <item>@string/pro_ft_hide</item>
+        <item>@string/pro_ft_hide_notif</item>
+        <item>@string/pro_ft_pcolor</item>
+        <item>@string/pro_ft_short_exit</item>
+        <item>@string/pro_ft_anim</item>
+        <item>@string/pro_ft_more</item>
+    </string-array>
+    <string-array name="nav_items">
+        <item>@string/nav_status</item>
+        <item>@string/nav_apps</item>
+        <item>@string/nav_change</item>
+        <item>@string/nav_settings</item>
+        <item>@string/nav_statistics</item>
+        <item>@string/nav_pro</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- MAINACTIVITY -->
+    <color name="main_button_background">#72333333</color>
+    <color name="main_activity_background">#eeeeee</color>
+    <color name="main_tv_status_color">#48888888</color>
+
+    <!-- LOCKER ACTIVITY -->
+    <color name="locker_head_text_color">#ffffff</color>
+    <color name="locker_overlay">#48333333</color>
+    <color name="patternview_background">#48333333</color>
+    <color name="passwordview_button_background">#48333333</color>
+
+    <!-- PRO -->
+    <color name="item_bg">#ddd</color>
+    <color name="item_border">#ddd</color>
+    <color name="item_selected_bg">#16a085</color>
+    <color name="item_selected_border">#00000000</color>
+    <color name="pro_item_desc">#000</color>
+    <color name="pro_item_tit">#000</color>
+    <color name="pro_item_selected_tit">#fff</color>
+    <color name="pro_item_selected_desc">#fff</color>
+    <color name="pro_item_tit_free">#000</color>
+    <color name="pro_item_tit_ads">#000</color>
+    <color name="pro_item_tit_paid">#000</color>
+    
+    <!-- Switch -->
+    <color name="switch_on_bg">#16a085</color>
+    <color name="switch_off_bg">#888</color>
+    <color name="switch_track">#333</color>
+
+    <!-- Holo dark background -->
+    <color name="ics_background_start">#ff020202</color>
+    <color name="ics_background_end">#ff272D33</color>
+
+    <!-- flatuicolors.com -->
+    <color name="flat_green">#1F8B4D</color>
+    <color name="flat_blue">#2980b9</color>
+    <color name="flat_dark_blue">#336699</color>
+    <color name="flat_purple">#9b59b6</color>
+    <color name="flat_red">#c0392b</color>
+    <color name="flat_turquoise">#16a085</color>
+    <color name="flat_orange">#e67e22</color>
+
+</resources>
