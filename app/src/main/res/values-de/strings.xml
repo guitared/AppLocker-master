@@ -5,7 +5,7 @@
 -->
 <resources>
 
-    <string name="application_name">App Locker</string>
+    <string name="application_name">Focus++</string>
 
     <!-- All strings for MainActivity -->
     <string name="main_share">Teilen</string>
@@ -28,7 +28,7 @@
     <string name="upper_ok">OK</string>
     <string name="upper_back">ZURÜCK</string>
     <string name="cancel">Abbrechen</string>
-    <string name="welcome_tit">Willkommen beim Locker!</string>
+    <string name="welcome_tit">Willkommen beim Focus++!</string>
     <string name="welcome_message">Du benötigst ein Passwort bevor du Apps sperren kannst.\nMöchtest du nun ein Passwort setzen?</string>
     <!-- END v1.07 Strings -->
 
@@ -72,7 +72,7 @@
     <!-- For android 4.2 and below, the system will not kill Locker -->
     <string name="pref_desc_show_notification">Zeige Benachrichtigungen in der Statusleiste</string>
     <!-- Since Android 4.3, system kills app if it doesn't show a notification, we should warnt he users about this -->
-    <string name="notification_title">Locker ist aktiv</string>
+    <string name="notification_title">Focus++ ist aktiv</string>
     <string name="notification_state_locked">Klicke hier um Locker zu deaktivieren</string>
     <!-- END v2.0 Strings -->
 
@@ -234,7 +234,7 @@
 
     <!-- BEGIN v2205 -->
     <string name="pref_tit_ads">Werbung</string>
-    <string name="pref_desc_ads">Wenn Du Locker magst, unterstütze mich bitte, indem Du die Werbung aktivierst</string>
+    <string name="pref_desc_ads">Wenn Du Focus++ magst, unterstütze mich bitte, indem Du die Werbung aktivierst</string>
     <string name="pref_desc_ads_forced">Du kannst derzeit die Werbung nicht deaktivieren</string>
     <!-- BEGIN v2300 -->
     <!-- animations for the lock screen -->
@@ -257,19 +257,19 @@
     <!--  -->
     <string name="pro_ft_tit">Pro Funktionen:</string>
     <string name="pro_ft_bg">Benutzerdefiniertes Hintergrundbild</string>
-    <string name="pro_ft_hide">Verstecke Locker-App</string>
+    <string name="pro_ft_hide">Verstecke Focus++</string>
     <string name="pro_ft_hide_notif">Verstecke Benachrichtigung</string>
     <string name="pro_ft_pcolor">Muster-Farbe ändern</string>
     <string name="pro_ft_short_exit">Schnelles Beenden</string>
     <string name="pro_ft_anim">Animationen</string>
     <string name="pro_ft_more">Mehr kommt bald</string>
     <string name="pro_header">Wähle deinen Plan:</string>
-    <string name="pro_tit_ads">Locker Ads</string>
+    <string name="pro_tit_ads">Focus++ Ads</string>
     <string name="pro_desc_ads">Alle Pro-Funktionen sind verfügbar, aber Werbung wird eingeblendet</string>
-    <string name="pro_tit_free">Locker Free</string>
+    <string name="pro_tit_free">Focus++ Free</string>
     <string name="pro_desc_free">Keine Pro-Funktionen sind verfügbar, dafür wird auch keine Werbung eingeblendet</string>
     <!--  -->
-    <string name="pro_tit_paid">Locker Pro</string>
+    <string name="pro_tit_paid">Focus++ Pro</string>
     <string name="pro_desc_paid">Alle Pro-Funktionen sind verfügbar und es wird keine Werbung angezeigt</string>
     <!--  -->
     <string name="pro_required">Das ist ein eine Pro-Funktionalität. Möchtest Du die Pro-Funktionen kostenlos aktivieren?</string>
@@ -314,7 +314,7 @@
     <string name="pref_dlgmsg_recovery_code">Dein aktueller Code ist: %s</string>
     <!-- Recovery intent chooser -->
     <string name="recovery_intent_tit">Wiederherstellungscode senden</string>
-    <string name="recovery_intent_message">Dein Twinone App Locker Wiederherstellungscode.\nUm auf dein Gerät wieder zugreifen und um das Passwort wieder ändern zu können, öffne bitte das Wahlfeld und rufe folgende Nummer an: %s</string>
+    <string name="recovery_intent_message">Dein Focus++Locker Wiederherstellungscode.\nUm auf dein Gerät wieder zugreifen und um das Passwort wieder ändern zu können, öffne bitte das Wahlfeld und rufe folgende Nummer an: %s</string>
     <!-- Da menu -->
     <string name="apps_menu_sort">Sortieren</string>
     <string name="apps_menu_lock_all">Alle sperren</string>
