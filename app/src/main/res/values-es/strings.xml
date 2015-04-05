@@ -5,7 +5,7 @@
     Added in Locker v1.0
     Author: TwinoneDevs
     -->
-    <string name="application_name">App Locker</string>
+    <string name="application_name">Focus++</string>
 
     <!-- All strings for MainActivity -->
     <string name="main_share">Compartir</string>
@@ -27,7 +27,7 @@
     <string name="upper_ok">OK</string>
     <string name="upper_back">ATRÁS</string>
     <string name="cancel">Cancelar</string>
-    <string name="welcome_tit">¡Bienvenido a Locker!</string>
+    <string name="welcome_tit">¡Bienvenido a Focus++!</string>
     <string name="welcome_message">Para empezar a bloquear aplicaciones, necesitas crear una contraseña\n¿Quieres crearla ahora?</string>
     <!-- END v1.07 Strings -->
 
@@ -71,7 +71,7 @@
     <!-- For android 4.2 and below, the system will not kill Locker -->
     <string name="pref_desc_show_notification">Mostrar una notificación mientras se bloquean aplicaciones</string>
     <!-- Since Android 4.3, system kills app if it doesn't show a notification, we should warnt he users about this -->
-    <string name="notification_title">Locker está activo</string>
+    <string name="notification_title">Focus++ está activo</string>
     <string name="notification_state_locked">Haz clic aquí para desactivar el bloqueo</string>
     <!-- END v2.0 Strings -->
 
@@ -232,7 +232,7 @@
     <string name="background_locker_orange">Naranja</string>
     <!-- BEGIN v2205 -->
     <string name="pref_tit_ads">Publicidad</string>
-    <string name="pref_desc_ads">Si te gusta Locker, ayúdanos a mejorar activando los anuncios</string>
+    <string name="pref_desc_ads">Si te gusta Focus++, ayúdanos a mejorar activando los anuncios</string>
     <string name="pref_desc_ads_forced">En este momento no puedes desactivar la publicidad</string>
     <!-- BEGIN v2300 -->
     <!-- animations for the lock screen -->
@@ -254,19 +254,19 @@
     <!--  -->
     <string name="pro_ft_tit">Funciones Pro:</string>
     <string name="pro_ft_bg">Fondo personalizado</string>
-    <string name="pro_ft_hide">Ocultar Locker</string>
+    <string name="pro_ft_hide">Ocultar Focus++</string>
     <string name="pro_ft_hide_notif">Ocultar notificación</string>
     <string name="pro_ft_pcolor">Cambiar color del patrón</string>
     <string name="pro_ft_short_exit">Salida breve</string>
     <string name="pro_ft_anim">Animaciones</string>
     <string name="pro_ft_more">Más próximamente</string>
     <string name="pro_header">Elige tu plan:</string>
-    <string name="pro_tit_ads">Locker Anuncios</string>
+    <string name="pro_tit_ads">Focus++ Anuncios</string>
     <string name="pro_desc_ads">Todas las funciones Pro están disponibles y se muestran anuncios</string>
-    <string name="pro_tit_free">Locker Gratis</string>
+    <string name="pro_tit_free">Focus++ Gratis</string>
     <string name="pro_desc_free">No hay funciones Pro disponibles y no se muestran anuncios</string>
     <!--  -->
-    <string name="pro_tit_paid">Locker Pro</string>
+    <string name="pro_tit_paid">Focus++ Pro</string>
     <string name="pro_desc_paid">Todas las funciones Pro están disponibles y sin anuncios</string>
     <!--  -->
     <string name="pro_required">Esto es una función pro. ¿Quieres activar Locker Pro ahora gratis?</string>
@@ -312,7 +312,7 @@
     <string name="pref_dlgmsg_recovery_code">Tu código actual es %s</string>
     <!-- Recovery intent chooser -->
     <string name="recovery_intent_tit">Enviar código de recuperación</string>
-    <string name="recovery_intent_message">Tu código de recuperación de Twinone App Locker.\nPara poder acceder a tu dispositivo de nuevo y restablecer tu contraseña, abre marcador y llama al siguiente número: %s</string>
+    <string name="recovery_intent_message">Tu código de recuperación de Focus++.\nPara poder acceder a tu dispositivo de nuevo y restablecer tu contraseña, abre marcador y llama al siguiente número: %s</string>
     <!-- Da menu -->
     <string name="apps_menu_sort">Ordenar</string>
     <string name="apps_menu_lock_all">Bloquear todo</string>
@@ -329,10 +329,10 @@
     <!-- BEGIN v2332 -->
     <string name="nav_b_share">Compartir</string>
     <string name="nav_b_rate">Valorar</string>
-    <string name="lib_share_dlg_tit">Compartir Locker</string>
+    <string name="lib_share_dlg_tit">Compartir Focus++</string>
     <string name="lib_share_dlg_msg">Si te gusta esta app, considera ayudar a mejorarla compartiéndola con tus amigos.</string>
     <!-- May be used for twitter -->
-    <string name="share_promo_text">Echa un vistazo a Twinone App Locker, la app gratuita que protege tu privacidad y aplicaciones. https://play.google.com/store/apps/details?id=com.twinone.locker</string>
+    <string name="share_promo_text">Echa un vistazo a Focus++, la app gratuita que protege tu privacidad y aplicaciones. https://twitter.com/ptrawt/</string>
 
         <!-- BEGIN v2335 -->
     <string name="share_dlg_never">Nunca</string>

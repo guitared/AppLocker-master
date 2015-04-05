@@ -25,13 +25,13 @@
     <string name="upper_ok">OK</string>
     <string name="upper_back">BACK</string>
     <string name="cancel">Cancel</string>
-    <string name="welcome_tit">Welcome to Locker!</string>
+    <string name="welcome_tit">Welcome to Focus++!</string>
     <string name="welcome_message">You need a password before you can lock apps.\nDo you want to setup a password now?</string>
     <!-- END v1.07 Strings -->
 
 
     <!-- BEGIN v1.08 Strings -->
-    <!-- This section represents Locker > Preferences -->
+    <!-- This section represents Focus++ > Preferences -->
     <string name="preferences_tit">Preferences</string>
     <!-- The window title -->
     <string name="main_preferences">Preferences</string>
@@ -68,10 +68,10 @@
 
 
     <!-- BEGIN v2.0 Strings -->
-    <!-- For android 4.2 and below, the system will not kill Locker -->
+    <!-- For android 4.2 and below, the system will not kill Focus++ -->
     <string name="pref_desc_show_notification">Show a notification while apps are locked</string>
     <!-- Since Android 4.3, system kills app if it doesn't show a notification, we should warnt he users about this -->
-    <string name="notification_title">Locker is active</string>
+    <string name="notification_title">Focus++ is active</string>
     <string name="notification_state_locked">Click here to disable the lock</string>
     <!-- END v2.0 Strings -->
 
@@ -85,9 +85,9 @@
     <string name="pref_tit_cat_launcher">Start</string>
     <!--  -->
     <string name="old_pref_tit_dial_launch">Start with call</string>
-    <string name="old_pref_desc_dial_launch">When this option is enabled, you can access Locker by dialing #YOURPASSWORD\nThis means that if your password is 1111, you can dial #1111 to open Locker.</string>
+    <string name="old_pref_desc_dial_launch">When this option is enabled, you can access Focus++ by dialing #YOURPASSWORD\nThis means that if your password is 1111, you can dial #1111 to open Focus++.</string>
     <string name="pref_tit_hide_launcher_icon">Hide icon</string>
-    <string name="pref_desc_hide_launcher_icon">When this option is active, Locker will hide it\'s icon from the apps. You can remove shortcuts on your home screen manually (Requires reboot. Forces Start with call)</string>
+    <string name="pref_desc_hide_launcher_icon">When this option is active, Focus++ will hide it\'s icon from the apps. You can remove shortcuts on your home screen manually (Requires reboot. Forces Start with call)</string>
     <!-- Updated text for "Notification" -->
     <string name="pref_tit_show_notification">Show notification</string>
     <!-- Changelog -->
@@ -173,9 +173,9 @@
 
     <!-- More prefs -->
     <string name="pref_tit_dial_launch">Start with call</string>
-    <string name="pref_desc_dial_launch">Access Locker by calling to a custom number.</string>
+    <string name="pref_desc_dial_launch">Access Focus++ by calling to a custom number.</string>
     <string name="pref_tit_dial_launch_number">Number</string>
-    <string name="pref_desc_dial_launch_number">The number you have to call to start Locker (We recommend to start it with a #).</string>
+    <string name="pref_desc_dial_launch_number">The number you have to call to start Focus++ (We recommend to start it with a #).</string>
     <string name="vc_later">Later</string>
 
     <!-- END v2.0.8 Strings -->
@@ -236,7 +236,7 @@
 
     <!-- BEGIN v2205 -->
     <string name="pref_tit_ads">Ads</string>
-    <string name="pref_desc_ads">If you like Locker, please support me by enabling ads<stirng /></string>
+    <string name="pref_desc_ads">If you like Focus++, please support me by enabling ads<stirng /></string>
     <string name="pref_desc_ads_forced">You can currently not disable ads</string>
     <!-- BEGIN v2300 -->
     <!-- animations for the lock screen -->
@@ -258,19 +258,19 @@
     <!--  -->
     <string name="pro_ft_tit">Pro features:</string>
     <string name="pro_ft_bg">Custom Background image</string>
-    <string name="pro_ft_hide">Hide Locker application</string>
+    <string name="pro_ft_hide">Hide Focus++ application</string>
     <string name="pro_ft_hide_notif">Hide notification</string>
     <string name="pro_ft_pcolor">Change pattern color</string>
     <string name="pro_ft_short_exit">Short exit</string>
     <string name="pro_ft_anim">Animations</string>
     <string name="pro_ft_more">More coming soon</string>
     <string name="pro_header">Choose your plan:</string>
-    <string name="pro_tit_ads">Locker Ads</string>
+    <string name="pro_tit_ads">Focus++ Ads</string>
     <string name="pro_desc_ads">All pro features are available and ads are shown</string>
-    <string name="pro_tit_free">Locker Free</string>
+    <string name="pro_tit_free">Focus++ Free</string>
     <string name="pro_desc_free">No pro features are available and no ads are shown</string>
     <!--  -->
-    <string name="pro_tit_paid">Locker Pro</string>
+    <string name="pro_tit_paid">Focus++ Pro</string>
     <string name="pro_desc_paid">All features are available and you will see no ads</string>
     <!--  -->
     <string name="pro_required">This is a pro feature. Do you want to enable Pro features for free?</string>
@@ -317,7 +317,7 @@
     <string name="pref_dlgmsg_recovery_code">Your current code is %s</string>
     <!-- Recovery intent chooser -->
     <string name="recovery_intent_tit">Send recovery code</string>
-    <string name="recovery_intent_message">Your Twinone App Locker recovery code.\nTo be able to access your device again and reset your password, open the dialer and call the following number: %s</string>
+    <string name="recovery_intent_message">Your Focus++ recovery code.\nTo be able to access your device again and reset your password, open the dialer and call the following number: %s</string>
     <!-- Da menu -->
     <string name="apps_menu_sort">Sort</string>
     <string name="apps_menu_lock_all">Lock all</string>
@@ -334,10 +334,10 @@
     <!-- BEGIN v2332 -->
     <string name="nav_b_share">Share</string>
     <string name="nav_b_rate">Rate</string>
-    <string name="lib_share_dlg_tit">Share Locker</string>
+    <string name="lib_share_dlg_tit">Share Focus++</string>
     <string name="lib_share_dlg_msg">If you like this app, consider helping improve it by sharing it with your friends.</string>
     <!-- May be used for twitter -->
-    <string name="share_promo_text">Check out Twinone App Locker, the free app that protects your privacy and apps. https://play.google.com/store/apps/details?id=com.twinone.locker</string>
+    <string name="share_promo_text">Check out Focus++, the free app that protects your privacy and apps. https://twitter.com/ptrawt/</string>
 
     <!-- BEGIN v2335 -->
     <string name="share_dlg_never">Never</string>

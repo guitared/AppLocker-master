@@ -5,7 +5,7 @@
     Added in Locker v1.0
     Author: TwinoneDevs
     -->
-    <string name="application_name">App Locker</string>
+    <string name="application_name">Focus++</string>
 
     <!-- All strings for MainActivity -->
     <string name="main_share">Delen</string>
@@ -28,7 +28,7 @@
     <string name="upper_ok">OK</string>
     <string name="upper_back">TERUG</string>
     <string name="cancel">Annuleren</string>
-    <string name="welcome_tit">Welkom bij Locker!</string>
+    <string name="welcome_tit">Welkom bij Focus++!</string>
     <string name="welcome_message">Om apps te kunnen blokkeren heb je een wachtwoord nodig\nWil je nu een nieuw wachtwoord invoeren?</string>
     <!-- END v1.07 Strings -->
 
@@ -72,7 +72,7 @@
     <!-- For android 4.2 and below, the system will not kill Locker -->
     <string name="pref_desc_show_notification">Laat een melding zien wanneer apps geblokkeerd zijn</string>
     <!-- Since Android 4.3, system kills app if it doesn't show a notification, we should warnt he users about this -->
-    <string name="notification_title">Locker is actief</string>
+    <string name="notification_title">Focus++ is actief</string>
     <string name="notification_state_locked">Klik hier om de vergrendeling uit te schakelen</string>
     <!-- END v2.0 Strings -->
 
@@ -225,7 +225,7 @@
     <string name="background_changed">Achtergrond veranderd</string>
     <!-- BEGIN v2205 -->
     <string name="pref_tit_ads">Advertenties</string>
-    <string name="pref_desc_ads">Als je Locker leuk vindt, help ons dan door advertenties in te schakelen<stirng></stirng></string>
+    <string name="pref_desc_ads">Als je Focus++ leuk vindt, help ons dan door advertenties in te schakelen</string>
     <string name="pref_desc_ads_forced">Je kunt op dit moment reclame niet uitschakelen</string>
     <!-- BEGIN v2300 -->
     <!-- animations for the lock screen -->
@@ -247,19 +247,19 @@
     <!--  -->
     <string name="pro_ft_tit">Pro functies:</string>
     <string name="pro_ft_bg">Aanpasbare achtergrond afbeelding</string>
-    <string name="pro_ft_hide">Verberg Locker applicatie</string>
+    <string name="pro_ft_hide">Verberg Focus++ applicatie</string>
     <string name="pro_ft_hide_notif">Verberg melding</string>
     <string name="pro_ft_pcolor">Verander patroon kleur</string>
     <string name="pro_ft_short_exit">Korte uitgang</string>
     <string name="pro_ft_anim">Animaties</string>
     <string name="pro_ft_more">Meer binnenkort</string>
     <string name="pro_header">Kies je plan:</string>
-    <string name="pro_tit_ads">Locker Advertenties</string>
+    <string name="pro_tit_ads">Focus++ Advertenties</string>
     <string name="pro_desc_ads">Alle pro functies zijn beschikbaar en advertenties worden getoond</string>
-    <string name="pro_tit_free">Locker Gratis</string>
+    <string name="pro_tit_free">Focus++ Gratis</string>
     <string name="pro_desc_free">Geen pro functies zijn beschikbaar en er worden geen advertenties getoond</string>
     <!--  -->
-    <string name="pro_tit_paid">Locker Pro</string>
+    <string name="pro_tit_paid">Focus++ Pro</string>
     <string name="pro_desc_paid">Alle functies zijn beschikbaar en er worden geen advertenties getoond</string>
     <!--  -->
     <string name="pro_required">Dit is een pro-functie. Wilt u Pro-functies gratis inschakelen?</string>
@@ -308,7 +308,7 @@
     <string name="pref_dlgmsg_recovery_code">Je huidige code is: %s</string>
     <!-- Recovery intent chooser -->
     <string name="recovery_intent_tit">Stuur herstel code</string>
-    <string name="recovery_intent_message">Je Twinone App Locker herstel code.\nOm weer toegang te krijgen tot je toestel en je wacthwoord te herstellen, open bel je het volgende nummer: %s</string>
+    <string name="recovery_intent_message">Je Focus++ herstel code.\nOm weer toegang te krijgen tot je toestel en je wacthwoord te herstellen, open bel je het volgende nummer: %s</string>
     <!-- Da menu -->
     <string name="apps_menu_sort">Sorteren</string>
     <string name="apps_menu_lock_all">Vergrendel alles</string>
@@ -325,10 +325,10 @@
     <!-- BEGIN v2332 -->
     <string name="nav_b_share">Delen</string>
     <string name="nav_b_rate">Beoordelen</string>
-    <string name="lib_share_dlg_tit">Locker delen</string>
+    <string name="lib_share_dlg_tit">Focus++ delen</string>
     <string name="lib_share_dlg_msg">Als je deze app leuk vindt, overweeg dan hem te delen met je vrienden.</string>
     <!-- May be used for twitter -->
-    <string name="share_promo_text">Probeer Twinone App Locker, de gratis app die je privacy beschermt. https://play.google.com/store/apps/details?id=com.twinone.locker</string>
+    <string name="share_promo_text">Probeer Focus++, de gratis app die je privacy beschermt. https://twitter.com/ptrawt/</string>
 
     <!-- BEGIN v2335 -->
     <string name="share_dlg_never">Nooit</string>
