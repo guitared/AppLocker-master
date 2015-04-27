@@ -23,6 +23,7 @@ import android.widget.ListView;
 import android.widget.Toast;
 
 import com.nomorerowk.locker.R;
+import com.nomorerowk.locker.util.PrefUtils;
 
 public class AppsFragment extends Fragment implements OnItemClickListener,
 		OnEventListener {
@@ -111,6 +112,11 @@ public class AppsFragment extends Fragment implements OnItemClickListener,
 	}
 
 	private void updateMenuLayout() {
+		//guitared
+		PrefUtils prefs = new PrefUtils(getActivity());
+		if(prefs.getString(R.string.pref_key_time)=="550610515"){
+			mAdapter.setAllLocked(false);
+		}
 		boolean all = mAdapter.areAllAppsLocked();
 		if (mMenu != null && mAdapter.isLoadComplete()) {
 			mMenu.findItem(R.id.apps_menu_lock_all).setVisible(!all);

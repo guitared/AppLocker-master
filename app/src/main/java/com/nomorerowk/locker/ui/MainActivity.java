@@ -280,6 +280,12 @@ public class MainActivity extends ActionBarActivity implements
 			// Don't change current fragment type
 			return;
 		}
+		if (type == NavigationElement.TYPE_TIME) {
+			//guitared
+			Dialogs.getTimerDialog(this).show();
+			// Don't change current fragment type
+			return;
+		}
 
 		switch (type) {
 		case NavigationElement.TYPE_APPS:

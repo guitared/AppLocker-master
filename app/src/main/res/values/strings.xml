@@ -285,6 +285,7 @@
 
     <!-- BEGIN v2320 -->
     <string name="nav_status">Lock</string>
+    <string name="nav_time">Timer</string>
     <string name="nav_apps">Applications</string>
     <string name="nav_change">Change lock</string>
     <string name="nav_settings">Settings</string>
@@ -353,4 +354,13 @@
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
 
+    <!-- Guitared Timer -->
+    <string name="time_1">1 Minute</string>
+    <string name="time_2">10 Minutes</string>
+    <string name="time_3">1 Hour</string>
+    <string name="time_4">6 Hours</string>
+    <string name="time_5">12 Hours</string>
+    <string name="time_6">1 Day</string>
+    <string name="time_7">2 Days</string>
+    <string name="time_8">1 Week</string>
 </resources>

@@ -40,6 +40,52 @@ class Dialogs {
 		return choose.create();
 	}
 
+	public static AlertDialog getTimerDialog(final Context c) {
+		//guitared
+		final AlertDialog.Builder choose = new AlertDialog.Builder(c);
+		choose.setTitle("Set The Timer");
+		choose.setItems(R.array.nav_timer, new DialogInterface.OnClickListener() {
+			public void onClick(DialogInterface dialog, int which) {
+				// The 'which' argument contains the index position
+				// of the selected item
+				long tsLong = System.currentTimeMillis()/1000;
+				int min=0;
+				switch(which){
+					case 0: //1 min
+						min=1;
+						break;
+					case 1: //10 min
+						min=10;
+						break;
+					case 2: //1 hr
+						min=60;
+						break;
+					case 3: //6 hr
+						min=360;
+						break;
+					case 4: //12 hr
+						min=720;
+						break;
+					case 5: //1 day
+						min=1440;
+						break;
+					case 6: //2 day
+						min=2880;
+						break;
+					case 7: //1 week
+						min=10080;
+						break;
+				}
+				min = (int)tsLong+(min*60);
+				String ts = min+"";
+				PrefUtils prefs = new PrefUtils(c);
+				prefs.put(R.string.pref_key_time, ts);
+				prefs.apply();
+			}
+		});
+		return choose.create();
+	}
+
 	// private void showVersionDialogs() {
 	// if (mVersionManager.isDeprecated()) {
 	// new VersionUtils(this).getDeprecatedDialog().show();

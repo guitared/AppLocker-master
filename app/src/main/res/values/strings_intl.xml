@@ -4,6 +4,7 @@
     <!-- Keys -->
     <string translatable="false" name="pref_key_password">com.twinone.locker.pref.passwd</string>
     <string translatable="false" name="pref_key_pattern">com.twinone.locker.pref.pattern</string>
+    <string translatable="false" name="pref_key_time">com.twinone.locker.pref.time</string>
     <string translatable="false" name="pref_key_lock_message">com.twinone.locker.pref.message_key</string>
     <string translatable="false" name="pref_key_start_boot">com.twinone.locker.pref.start_boot</string>
     <string translatable="false" name="pref_key_relock_after_screenoff">com.twinone.locker.pref.relock_after_screenoff</string>

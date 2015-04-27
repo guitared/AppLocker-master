@@ -43,6 +43,7 @@ import com.nomorerowk.util.Analytics;
 import com.nomorerowk.locker.util.PrefUtils;
 
 import java.io.FileNotFoundException;
+import java.sql.Timestamp;
 
 public class LockService extends Service implements View.OnClickListener,
         View.OnKeyListener {
@@ -616,6 +617,17 @@ public class LockService extends Service implements View.OnClickListener,
         exitCreate();
     }
 
+    private void setupTime(){
+
+        //guitared added
+       // Long tsLong = System.currentTimeMillis()/1000;
+       //ts = tsLong.toString();
+        ////PrefUtils prefs = new PrefUtils(this);
+       // prefs.put(R.string.pref_key_time, ts);
+        //prefs.apply();
+
+    }
+
     private void exitCreate() {
         AppLockService.forceRestart(this);
         finish(true);
@@ -878,6 +890,10 @@ public class LockService extends Service implements View.OnClickListener,
      * Before inflating views
      */
     private boolean beforeInflate() {
+
+        //guitared
+        setupTime();
+
         if (mIntent == null) {
             return false;
         }

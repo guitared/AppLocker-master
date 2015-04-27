@@ -16,6 +16,7 @@ import android.support.v4.widget.DrawerLayout;
 import android.support.v4.widget.ViewDragHelper;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.ActionBarActivity;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuInflater;
@@ -238,6 +239,10 @@ public class NavigationFragment extends Fragment implements
 		mCurrentSelectedPosition = position;
 		if (mListView != null) {
 			mListView.setItemChecked(position, true);
+		}
+		if(position == 1){
+			//guitared Timer click
+			Log.e("","WTFFFFFFFF1");
 		}
 		boolean close = true;
 		if (mListener != null) {

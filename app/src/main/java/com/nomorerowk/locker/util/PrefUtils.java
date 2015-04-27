@@ -1,5 +1,8 @@
 package com.nomorerowk.locker.util;
 
+import java.sql.Timestamp;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.HashSet;
 import java.util.Set;
 
@@ -301,6 +304,19 @@ public class PrefUtils {
 		}
 		return password;
 	}
+	public boolean isUnlockTime(){
+		String time = getString(R.string.pref_key_time);
+		Long tsLong = System.currentTimeMillis()/1000;
+		if(time=="550610515"||time=="550610515x")return false;
+		try {
+			return tsLong > Long.parseLong(time);
+		}
+		catch (Exception e){
+			Log.e("","WET; "+e.getMessage());
+			return false;
+		}
+	}
+
 
 	public boolean isCurrentPasswordEmpty() {
 		String password = getCurrentPassword();

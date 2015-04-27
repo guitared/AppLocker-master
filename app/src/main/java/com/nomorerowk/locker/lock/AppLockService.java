@@ -243,6 +243,18 @@ public class AppLockService extends Service {
             Log.d(TAG, "appchanged " + " (" + mLastPackageName + ">"
                     + packageName + ")");
 
+            //guitared
+            boolean unlock = new PrefUtils(this).isUnlockTime();
+            if(unlock){
+                unlockAll();
+                final String that_time = "550610515";
+                PrefUtils prefs = new PrefUtils(this);
+                prefs.put(R.string.pref_key_time, that_time);
+                prefs.apply();
+            }
+            else {
+                Log.e("", "wtfffffffffffffffff");
+            }
             onAppClose(mLastPackageName, packageName);
             onAppOpen(packageName, mLastPackageName);
         }
@@ -384,6 +396,15 @@ public class AppLockService extends Service {
             entry.setValue(true);
         }
     }
+
+    //guitared
+    private void unlockAll(){
+        for (Map.Entry<String, Boolean> entry : mLockedPackages.entrySet()) {
+            entry.setValue(false);
+        }
+
+    }
+
 
     void lockApp(String packageName) {
         if (mLockedPackages.containsKey(packageName)) {

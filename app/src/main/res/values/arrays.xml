@@ -99,5 +99,15 @@
         <item>@string/nav_statistics</item>
         <item>@string/nav_pro</item>
     </string-array>
+    <string-array name="nav_timer">
+        <item>@string/time_1</item>
+        <item>@string/time_2</item>
+        <item>@string/time_3</item>
+        <item>@string/time_4</item>
+        <item>@string/time_5</item>
+        <item>@string/time_6</item>
+        <item>@string/time_7</item>
+        <item>@string/time_8</item>
+    </string-array>
 
 </resources>

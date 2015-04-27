@@ -43,6 +43,9 @@ public class LockPreferences implements Serializable {
 	public boolean patternStealth;
 	public final boolean patternErrorStealth;
 
+	//time
+	public final String time;
+
 	// Pro & pattern only
 	public final int patternCircleResId;
 
@@ -119,6 +122,8 @@ public class LockPreferences implements Serializable {
 
 		patternCircleResId = getPatternCircleResId(c, pro,
 				prefs.getString(R.string.pref_key_pattern_color));
+
+		time = prefs.getString(R.string.pref_key_time);
 	}
 
 	/**

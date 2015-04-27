@@ -9,6 +9,7 @@ import com.nomorerowk.locker.lock.AppLockService;
 import android.annotation.TargetApi;
 import android.content.Context;
 import android.os.Build;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -68,6 +69,7 @@ public class NavigationAdapter extends BaseAdapter {
 
 	private void setupElements() {
 		addElement(R.string.nav_status, NavigationElement.TYPE_STATUS);
+		addElement(R.string.nav_time, NavigationElement.TYPE_TIME);
 		addElement(R.string.nav_apps, NavigationElement.TYPE_APPS);
 		addElement(R.string.nav_change, NavigationElement.TYPE_CHANGE);
 		addElement(R.string.nav_settings, NavigationElement.TYPE_SETTINGS);
@@ -107,6 +109,10 @@ public class NavigationAdapter extends BaseAdapter {
 					.findViewById(R.id.navFlag);
 			cb.setChecked(mServiceRunning);
 			cb.setVisibility(View.VISIBLE);
+		}
+		//Guitared
+		if (mItems.get(position).type == NavigationElement.TYPE_TIME) {
+			//Log.e("", "WTFFFFFFFF");
 		}
 
 		TextView navTitle = (TextView) root.findViewById(R.id.navTitle);

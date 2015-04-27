@@ -8,7 +8,7 @@ public class NavigationElement {
 	public static final int TYPE_SETTINGS = 3;
 	public static final int TYPE_STATISTICS = 4;
 	public static final int TYPE_TEST = 6;
-
+	public static final int TYPE_TIME = 7;
 	public int type;
 
 	public int title;

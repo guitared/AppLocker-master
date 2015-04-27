@@ -46,10 +46,49 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceMedium"
-            android:text="Version 1.0.0"
+            android:text="Version 1.2.0"
             android:id="@+id/textView3"
             android:layout_gravity="center_horizontal"
             android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Unlock time"
+            android:id="@+id/textView4"
+            android:layout_gravity="center_horizontal"
+            android:paddingTop="30dp"
+            android:visibility="invisible" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="1111111111"
+            android:id="@+id/test_time"
+            android:layout_gravity="center_horizontal"
+            android:visibility="invisible" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Current time"
+            android:id="@+id/textView5"
+            android:layout_gravity="center_horizontal"
+            android:paddingTop="30dp"
+            android:visibility="invisible" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="1111111111"
+            android:id="@+id/textView6"
+            android:layout_gravity="center_horizontal"
+            android:visibility="invisible" />
+
     </LinearLayout>
 
 </ScrollView>
